@@ -1,0 +1,10 @@
+<html>
+	<body>
+		<h1>Alarms</h1>
+		<ul>
+			#foreach( $alarm in $alarms )
+				<li>$alarm.getId() -- $alarm.getText()</li>
+			#end
+		</ul>
+	</body>
+</html>
